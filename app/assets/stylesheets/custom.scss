@@ -1,0 +1,44 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#centrepage{
+  background-color: #222222;
+}
+
+#login{
+  float:right;
+  background-color: #128c12;
+  border-color: transparent;
+}
+#signup{
+  float:right;
+  background-color: #128c12;
+  border-color: transparent;
+}
+body {
+  padding-top: 50px;
+  background: #00a3b2;
+}
+
+/*header*/
+.navbar {
+  border-color: transparent;
+}
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #8c128c;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover{
+    color: #00a3b2;
+    text-decoration: none;
+  }
+}
+.btn-group{
+
+  float:right;
+}
